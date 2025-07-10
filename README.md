@@ -37,6 +37,21 @@ LuminaFaith makes learning about world religions engaging, interactive, and acce
 
 ## 🚀 Quick Start
 
+### Option 1: Docker Setup (Recommended for New Users)
+```bash
+# 1. Install Docker Desktop
+# 2. Clone this repository
+git clone https://github.com/JamieWonderchild/LuminaFaith.git
+cd LuminaFaith
+
+# 3. Get the .env file from Jamie
+# 4. Start the app
+docker-compose up
+```
+
+> **New to the project?** Check out our [Docker Setup Guide](./DOCKER_SETUP_GUIDE.md) - it's much simpler!
+
+### Option 2: Local Development Setup
 ```bash
 # Install dependencies
 npm install
@@ -47,7 +62,7 @@ npm start
 # Scan QR code with Expo Go app
 ```
 
-> **New to the project?** Check out our [Setup Guide](./docs/development/setup.md)
+> **For local development setup:** Check out our [Complete Setup Guide](./docs/development/setup.md)
 
 ## 🧪 Testing
 
