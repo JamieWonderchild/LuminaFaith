@@ -83,13 +83,21 @@ docker-compose --version
 
 2. **Wait for it to build** (first time takes 3-5 minutes)
 
-3. **Look for the QR code** in your terminal
+3. **Look for the QR code** in your terminal - it will look like this:
+   ```
+   █▄▄▄▄▄▄▄█▄██▄▄▄█▄▄▄█▄▄███▄█
+   
+   › Metro waiting on exp://0.0.0.0:8081
+   › Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+   ```
 
 4. **Scan the QR code**:
    - **iPhone**: Use Camera app
    - **Android**: Use "Scan QR Code" in Expo Go
 
 5. **The app loads on your phone!** 🎉
+
+> **Note**: The first time you run this, Docker will download and build everything. Subsequent runs are much faster (30 seconds).
 
 ---
 
